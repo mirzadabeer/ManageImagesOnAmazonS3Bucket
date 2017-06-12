@@ -6,12 +6,23 @@ through the Admin of ProcessWire.
 ## Requirements
 
 - ProcessWire 3.x;
+- PHP 5.4 or newer
+- Composer
 - Amazon AWS PHP SDK (included);
 - AWS account with S3 services enabled;
 - A S3 Bucket and a user with the proper privileges over it: "s3:PutObject", "s3:GetObject", "s3:DeleteObject" and 
 "s3:PutObjectAcl";
 
 ## Installation 
+
+In your ProcessWire installation root execute the following command from the terminal:
+
+````````
+composer require processwire/manage-images-on-amazon-s3-bucket
+````````
+
+Login to your ProcessWire admin and go to: Modules > Refresh. Click "Install" next to
+the Google Client API module (which should appear on the "Site" tab).
 
 Put all the files inside /site/modules/ManageImagesOnAmazonS3Bucket/ and go to Admin>Modules>Refresh for New Modules and install. 
 
@@ -28,6 +39,11 @@ The deleted files on PW pages are also deleted immediately from S3 but you have 
 
 The module can automatically serve the content from Amazon CloudFront if a distribution is created for the S3 bucket used 
 with this module. The files URL's are automatically replaced. 
+
+## Credits
+Motivation from Nelson Mendes (https://github.com/nmendes/amazons3cloudfront)
+
+Thanks Ryan Cramer For the Awesome processwire. 
 
 ## Issues
 

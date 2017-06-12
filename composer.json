@@ -1,0 +1,35 @@
+{
+  "name": "processwire/manage-images-on-amazon-s3-bucket",
+  "type": "library",
+  "description": "Module for ProcessWire CMS/CMF",
+  "keywords": [
+    "processwire",
+    "cms",
+    "cmf",
+    "content management system",
+    "images",
+    "amazon s3 bucket",
+    "manage images on amazon s3 bucket"
+  ],
+  "license": "MPL-2.0",
+  "homepage": "https://processwire.com",
+  "authors": [
+    {
+      "name": "Ryan Cramer",
+      "email": "ryan@processwire.com",
+      "homepage": "https://processwire.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Mirza Dabeer Hussain",
+      "email": "dabeer88@gmail.com",
+      "homepage": "https://mirzadabeerhussain.com",
+      "role": "Backend Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.8",
+    "aws/aws-sdk-php": "^3.22",
+    "league/flysystem-aws-s3-v3": "~1"
+  }
+}
