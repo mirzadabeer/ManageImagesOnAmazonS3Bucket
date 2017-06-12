@@ -1,4 +1,4 @@
-# Amazon S3 CloudFront Module for ProcessWire 2.4+
+# Manage Images on Amazon S3 Bucket Module for ProcessWire 3.x
 
 This module/plugin provides a way to synchronize, serve and backup to Amazon S3 Bucket all the page images uploaded 
 through the Admin of ProcessWire.
